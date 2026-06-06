@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes a dataset of **600 wine samples**, each described by 9 chemical properties. The goal is to predict wine quality using multiple machine learning algorithms and compare their performance.
 
@@ -23,7 +23,7 @@ This project analyzes a dataset of **600 wine samples**, each described by 9 che
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 wine-quality-ml/
@@ -34,7 +34,7 @@ wine-quality-ml/
 
 ---
 
-## 🔄 Project Phases
+##  Project Phases
 
 ### Phase 1 — Data Loading & Exploration
 - Loaded raw CSV with 600 rows and 9 chemical feature columns
@@ -59,7 +59,7 @@ wine-quality-ml/
 
 ### Phase 4 — Model Training & Evaluation
 
-#### 📈 Linear Regression
+####  Linear Regression
 | Metric | Score |
 |---|---|
 | MAE | 1.43 |
@@ -67,14 +67,14 @@ wine-quality-ml/
 | RMSE | 1.63 |
 | R² | 0.021 |
 
-#### 🔵 Logistic Regression (Binary: quality ≥ 6)
+####  Logistic Regression (Binary: quality ≥ 6)
 | Metric | Score |
 |---|---|
 | Accuracy | 50.8% |
 | Precision | 46.4% |
 | Recall | 22.8% |
 
-#### 🟠 K-Nearest Neighbors (k=5)
+####  K-Nearest Neighbors (k=5)
 | Metric | Score |
 |---|---|
 | Accuracy | 48.3% |
@@ -82,7 +82,7 @@ wine-quality-ml/
 | Recall | 45.6% |
 | F1 Score | 45.6% |
 
-#### 🟣 K-Means Clustering (Unsupervised, k=3)
+####  K-Means Clustering (Unsupervised, k=3)
 | Metric | Score |
 |---|---|
 | WCSS (Inertia) | 4040.6 |
@@ -91,7 +91,7 @@ wine-quality-ml/
 
 ---
 
-## 💡 Key Findings
+##  Key Findings
 
 - **Total sulfur dioxide** had the highest correlation with quality (0.08) — overall features were weakly correlated with quality, making this a challenging prediction task
 - **Gradient Descent** successfully converged, reducing loss from **32.26 → 2.74** over 200 epochs
@@ -100,7 +100,7 @@ wine-quality-ml/
 
 ---
 
-## 🛠️ How to Run
+##  How to Run
 
 1. Open the notebook in **Google Colab** (recommended) or Jupyter Notebook
 2. Upload `wine_dataset_raw_600_rows.csv` when prompted
@@ -114,7 +114,7 @@ jupyter notebook 23set029_Project_Phase04_ML.ipynb
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 
 - `Data Cleaning` — handling nulls, duplicates, outliers, type conversion
 - `EDA` — correlation analysis, distribution plots, heatmaps
@@ -125,17 +125,15 @@ jupyter notebook 23set029_Project_Phase04_ML.ipynb
 
 ---
 
-## 👤 Author
+##  Author
 
-**[Your Full Name]**
+Maidah Javed
 Roll No: 23SET029
-BS Software Engineering | [Your University Name]
+BS Software Engineering | [Punjab Tianjin University of Technology]
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/maidaahh238)
 
 ---
 
-## 📄 License
+##  License
 
 This project is for academic and portfolio purposes.
