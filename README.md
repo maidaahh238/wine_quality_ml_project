@@ -1,4 +1,4 @@
-# 🍷 Wine Quality Prediction — Machine Learning Project
+#  Wine Quality Prediction — Machine Learning Project
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikit-learn)
